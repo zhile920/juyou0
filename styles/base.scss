@@ -1,0 +1,59 @@
+/* variable */
+@import "./variable/color.scss";
+/* helps */
+@import "./helps/color.scss";
+@import "./helps/font.scss";
+@import "./helps/margin.scss";
+@import "./helps/padding.scss";
+@import "./helps/position.scss";
+@import "./helps/width.scss";
+@import "./helps/common.scss";
+@import "./helps/box.scss";
+@import "./helps/vant.scss";
+@import "./helps/iconfont.scss";
+.yanzhengma_input {
+	width: 293rpx !important;
+}
+.pupu_shouj {
+	width: 508rpx !important;
+}
+.pupu_shoujs {
+	width: 405rpx !important;
+}
+	
+	uni-radio .uni-radio-input {
+		width: 24rpx;
+		height: 24rpx;
+		background-color: #fff !important;
+		border: 1px solid #F43B31 !important;
+	}
+	uni-radio .uni-radio-input.uni-radio-input-checked:before {
+		font: normal normal normal 14px/1 uni;
+		    content: ".";
+		    color: #F43B31;
+		    font-size: 110rpx;
+		    position: absolute;
+		    top: -26rpx;
+		    left: 51%;
+			border-radius: 50%;
+		   
+	}
+	// uni-switch .uni-switch-input {
+	// 	    width: 235rpx;
+	// 	    height: 125rpx;
+	// 		border-radius: 70rpx;
+	// }
+	uni-switch .uni-switch-input:after {
+		width: 50rpx;
+		height: 55rpx;
+		border-radius: 80rpx;
+		transform: translateX(0rpx);
+	}
+	// uni-switch .uni-switch-input:before {
+	// 	width: 230rpx;
+	// 	height: 120rpx;
+	// 	border-radius: 70rpx;
+	// }
+	uni-switch .uni-switch-input.uni-switch-input-checked:after {
+		    transform: translateX(45rpx);
+	}

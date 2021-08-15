@@ -1,0 +1,162 @@
+.bgcf {
+		background-color: #fff;
+	}
+
+.cf{
+	color: #FFFFFF;
+}
+.cc {
+	color: #CCCCCC;
+}
+.c6 {
+	color: #666;
+}
+.c9 {
+	color: #999;
+}
+.ce {
+	color: #EEEEEE;
+}
+.cb {
+	color: #BBBBBB;
+}
+.c5 {
+	color: #C5C5C5;
+}
+.cd {
+	color: #DDDDDD;
+}
+.ceb4{
+	 color: #EB4C50;
+ }
+ .color-white {
+  color: #fff !important;
+}
+
+.color-black {
+  color: #000 !important;
+}
+
+.color-main1 {
+  color: $main-one !important;
+}
+
+.color-main2 {
+  color: $main-two !important;
+}
+
+.color-main3 {
+  color: $main-three !important;
+}
+
+.color-assist1 {
+  color: $assist-one !important;
+}
+
+.color-assist2 {
+  color: $assist-two !important;
+}
+
+.color-deep {
+  color: $deep !important;
+}
+
+.color-middle {
+  color: $middle !important;
+}
+
+.color-shallow {
+  color: $shallow !important;
+}
+
+.bg-shallow {
+  background: $shallow !important;
+}
+
+.box-shadow {
+  box-shadow: 0 0 10px #f8f8f8 !important;
+}
+
+.line-color {
+  border-color: $divider !important;
+}
+
+.bg-divider {
+  background: $divider !important;
+}
+
+// 淡蓝按钮渐变
+.bg-gradient {
+  background: linear-gradient(to right, $assist-one, $assist-two) !important;
+}
+
+.bg-gradient1 {
+  background: linear-gradient(to bottom, $main-three, $bg-1 280px, $bg-1 2000px) !important;
+}
+
+.line-color-main {
+  border-color: $main-one !important;
+}
+
+.line-color-deep {
+  border-color: $deep !important;
+}
+
+.line-color-white {
+  border-color: #fff !important;
+}
+
+.line-color-shallow {
+  border-color: $shallow !important;
+}
+
+.line-none {
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.bg-main {
+  background: $bg !important;
+}
+
+.bg-main1 {
+  background: $bg-1 !important;
+}
+
+.bg-1 {
+  background: $main-one !important;
+}
+
+.bg-2 {
+  background: $main-two !important;
+}
+
+.bg-3 {
+  background: $assist-one !important;
+}
+
+.bg-4 {
+  background: $assist-two !important;
+}
+
+.bg-5 {
+  background: $assist-three !important;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-gray {
+  background-color: #F8F8F8 !important;
+}
+
+.bg-none {
+  background: none !important;
+}
+// .uni-input-placeholder{
+// 	color:#D3D3D3 ;
+// }

@@ -1,0 +1,16 @@
+<view class="content">
+  <topbar vue-id="8dd740cc-1" bg_color="#F3F3F3" have_top="{{true}}" bind:__l="__l" vue-slots="{{['default']}}">
+    <view class="dis_flex aic ju_c">
+      <view class="topDz">
+        <view><text></text></view>
+        <view>齐齐哈尔</view>
+      </view>
+      <view class="topInput"><input style="display:block;margin:0 auto;" type="text" value="" placeholder="搜索用户/活动" />
+      </view>
+      <view class="topFq">发起</view>
+    </view>
+  </topbar>
+  <view class="head"></view>
+  <view class="fjActivity"></view>
+  <view class="hotActivity"></view>
+</view>

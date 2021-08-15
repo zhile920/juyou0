@@ -1,0 +1,33 @@
+
+
+.opacity0{
+  opacity: 0 !important;  
+}
+.opacity3{
+  opacity: 0.3 !important;
+}
+
+.max-width-full{
+  max-width: 100% !important;
+}
+.height0 {
+  overflow: hidden !important;
+  min-height: 0 !important;
+  height: 0 !important;
+}
+.height100vh {
+  min-height: 100vh !important;
+}
+.height {
+  height: 100% !important;
+}
+.mintabh100vh {
+  min-height: calc(100vh - 100rpx) !important;
+}
+.width {
+  width: 100%;
+}
+
+.width-auto {
+  width: auto !important;
+}
