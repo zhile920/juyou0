@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+				"navigationStyle": "custom"
+				
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				
+				"navigationStyle": "custom"
+				
+			}
+		},
+		{
+			"path": "pages/msg/msg",
+			"style": {
+				
+				"navigationStyle": "custom"
+				
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				
+				"navigationStyle": "custom"
+				
+			}
+		}
+	],
+	
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#333333",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"midButton": {
+			"width": "33px",
+			"height": "60px",
+			"iconPath": "static/images/fabus.png",
+			"iconWidth": "33px"
+		},
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/shouye.png",
+				"selectedIconPath": "static/images/shouye1.png"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"text": "发现",
+				"iconPath": "static/images/shichang.png",
+				"selectedIconPath": "static/images/shichang1.png"
+			}, {
+				"pagePath": "pages/msg/msg",
+				"text": "交易",
+				"iconPath": "static/images/quanzi.png",
+				"selectedIconPath": "static/images/quanzi1.png"
+			},
+	
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/images/wode.png",
+				"selectedIconPath": "static/images/wode1.png"
+			}
+		]
+	},
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

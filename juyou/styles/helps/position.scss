@@ -1,0 +1,240 @@
+
+.fl,
+.float-left {
+  float: left;
+}
+
+.fr,
+.float-right {
+  float: right;
+}
+
+.float-hidden {
+  overflow: hidden;
+}
+
+.clear {
+  clear: both;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.absolute {
+  position: absolute !important;
+}
+
+.fixed {
+  z-index: 10;
+  position: fixed !important;
+}
+
+.initial{
+	position: initial !important;
+}
+
+/*位置*/
+.top, .top5, .top8, .top10, .top12, .top15, .top20, .top25, .top30, .top35, .top44,
+.left, .left5, .left8, .left10, .left12, .left15, .left20, .left25, .left30, .left35,
+.right, .right5, .right8, .right10, .right12, .right15, .right20, .right25, .right30, .right35,
+.bottom, .bottom5, .bottom8, .bottom10, .bottom12, .bottom15, .bottom20, .bottom25, .bottom30, .bottom35,
+.axis-center, .axis-x-center, .axis-y-center {
+  position: absolute;
+}
+
+.top {
+  top: 0;
+}
+.top5 {
+  top: 10rpx;
+}
+.top8 {
+  top: 16rpx;
+}
+.top10 {
+  top: 20rpx;
+}
+.top12 {
+  top: 24rpx;
+}
+.top15 {
+  top: 30rpx;
+}
+.top20 {
+  top: 40rpx;
+}
+.top25 {
+  top: 50rpx;
+}
+.top30 {
+  top: 60rpx;
+}
+.top35 {
+  top: 70rpx;
+}
+
+.left {
+  left: 0;
+}
+.left5 {
+  left: 10rpx;
+}
+.left8 {
+  left: 16rpx;
+}
+.left10 {
+  left: 20rpx;
+}
+.left12 {
+  left: 24rpx;
+}
+.left15 {
+  left: 30rpx;
+}
+.left20 {
+  left: 40rpx;
+}
+.left25 {
+  left: 50rpx;
+}
+.left30 {
+  left: 60rpx;
+}
+.left35 {
+  left: 70rpx;
+}
+
+.right {
+  right: 0;
+}
+.right3 {
+  right: 6rpx;
+}
+
+.right4 {
+  right: 8rpx;
+}
+.right5 {
+  right: 10rpx;
+}
+.right8 {
+  right: 16rpx;
+}
+.right10 {
+  right: 20rpx;
+}
+.right12 {
+  right: 24rpx;
+}
+.right15 {
+  right: 30rpx;
+}
+.right20 {
+  right: 40rpx;
+}
+.right25 {
+  right: 50rpx;
+}
+.right30 {
+  right: 60rpx;
+}
+.right35 {
+  right: 70rpx;
+}
+
+.bottom {
+  bottom: 0;
+}
+.bottom5 {
+  bottom: 10rpx;
+}
+.bottom8 {
+  bottom: 16rpx;
+}
+.bottom10 {
+  bottom: 20rpx;
+}
+.bottom12 {
+  bottom: 24rpx;
+}
+.bottom15 {
+  bottom: 30rpx;
+}
+.bottom20 {
+  bottom: 40rpx;
+}
+.bottom25 {
+  bottom: 50rpx;
+}
+.bottom30 {
+  bottom: 60rpx;
+}
+.bottom35 {
+  bottom: 70rpx;
+}
+.bottom50 {
+  bottom: 100rpx;
+}
+
+.axis-center{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.axis-x-center{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.axis-y-center{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Vertical Align Helpers */
+.va-t {
+  vertical-align: top !important;
+}
+
+.va-m {
+  vertical-align: middle !important;
+}
+
+.va-tt {
+  vertical-align: text-top !important;
+}
+
+.va-tb {
+  vertical-align: text-bottom !important;
+}
+
+.va-center {
+  align-items: center;
+}
+
+.va-b {
+  vertical-align: bottom !important;
+}
+
+.va-s {
+  vertical-align: super !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-justify {
+  text-align: justify;
+  display: block;
+  text-align-last: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+

@@ -1,0 +1,18 @@
+$main-one: #FF722B; // 主色调1
+$main-two: #07C160; // 主色调2
+$main-three: #00C5D8; // 主色调3
+$main-four: #389EF6; // 主色调4
+$assist-one: #FFB789; // 辅色调1
+$assist-two: #FF2941; // 辅色调2
+$assist-three: #00C5D8; // 辅色调2
+$deep: rgba(0, 0, 0, 0.8); // 文字深
+$middle: #686E7A; // 文字浅
+$shallow: rgba(0, 0, 0, 0.3); // 副文字
+$bg: #F8F7F6; // 背景主色
+$bg-1: #F8F7F6; // 背景主色
+$divider: rgba(0, 0, 0, 0.05); // 分割线
+
+page {
+  background: #fff;
+  color: $deep;
+}

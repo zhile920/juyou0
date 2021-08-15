@@ -1,0 +1,174 @@
+/* 圆角 */
+.br2{
+  border-radius: 4rpx !important;
+}
+.br3{
+  border-radius: 6rpx !important;
+}
+.br5{
+  border-radius: 10rpx !important;
+}
+.br8{
+  border-radius: 16rpx !important;
+}
+.br10{
+  border-radius: 20rpx !important;
+}
+.br12{
+  border-radius: 24rpx !important;
+}
+.br20{
+  border-radius: 40rpx !important;
+}
+.br25{
+  border-radius: 50rpx !important;
+}
+.br40{
+  border-radius: 80rpx !important;
+}
+.br100{
+  border-radius: 100% !important;
+}
+
+/* 划线 */
+.line-none{ // 无装饰
+  text-decoration: none;
+}
+.line-underline{ // 下划线
+  text-decoration: underline;
+}
+.line-overline{ // 上划线
+  text-decoration: overline;
+}
+.line-through{ // 贯穿线
+  text-decoration: line-through;
+}
+
+/*显示与隐藏*/
+.hide,
+.none {
+  display: none !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.block {
+  display: block !important;
+}
+
+.inline-block {
+  display: inline-block;
+}
+.box-sw-t {
+	box-shadow: 1px -10rpx 8rpx 4rpx #f4f4f4;
+}
+
+// 强制连续英文换行
+.wrap {
+  white-space: pre; // CSS 2.0
+  white-space: pre-wrap; // CSS 2.1
+  white-space: pre-line; // CSS 3.0
+  white-space: -pre-wrap; // Opera 4-6
+  white-space: -o-pre-wrap; // Opera 7
+  white-space: -moz-pre-wrap; // Mozilla
+  white-space: -hp-pre-wrap; // HP Printers
+  word-wrap: break-word; // IE 5+
+}
+
+.opacity60 {
+  opacity: 0.6;
+}
+
+.nowrap {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+//省略号
+.nowrap1 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.nowrap2 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.nowrap3 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.clearfix {
+  clear: both;
+  &:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
+
+button{
+  border: none;
+  &::after{
+    border: 0;
+  }
+}
+
+.border-box{
+  box-sizing: border-box !important;
+}
+.content-box{
+  box-sizing: content-box !important;
+}
+.b-b-1{
+  border-bottom: 1rpx #EEEEEE solid;
+}
+.b-l-1{
+  border-left: 1rpx #ebedf0 solid;
+}
+.b-t-1{
+  border-top: 1rpx #EEEEEE solid;
+}
+.b-a-1{
+  border: 1rpx #333 solid;
+}
+.b-d-1{
+  border: 1rpx #ddd solid;
+}
+
+
+.betting-u-dropdown .u-dropdown__content{
+	overflow: initial !important;
+}
+
+.btn-box:active{
+	opacity: 0.6;
+}
+
+ 
