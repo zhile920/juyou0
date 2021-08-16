@@ -100,7 +100,9 @@
 		/*  #endif  */
 		flex-direction: column;
 	}
-
+	.ff{
+		flex-flow: row wrap;
+	}
 	.aic {
 		align-items: center;
 	}

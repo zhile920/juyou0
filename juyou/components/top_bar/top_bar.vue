@@ -101,7 +101,6 @@
 	}
 	.dh_top_box{
 		position: absolute;
-		
 		left: 0;
 		bottom: 0;
 		right: 0;
@@ -111,7 +110,7 @@
 		/* line-height: 60rpx; */
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 		padding: 0 15upx;
 	}
 	.dh_top>.nav_bar_img{
