@@ -110,7 +110,7 @@
 		/* line-height: 60rpx; */
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
 		padding: 0 15upx;
 	}
 	.dh_top>.nav_bar_img{

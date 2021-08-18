@@ -56,7 +56,7 @@
 				"selectedIconPath": "static/findTab0.png"
 			}, {
 				"pagePath": "pages/msg/msg",
-				"text": "交易",
+				"text": "消息",
 				"iconPath": "static/msgTab1.png",
 				"selectedIconPath": "static/msgTab0.png"
 			},
@@ -65,7 +65,7 @@
 				"pagePath": "pages/my/my",
 				"text": "我的",
 				"iconPath": "static/myTab1.png",
-				"selectedIconPath": "static/myTab1.png"
+				"selectedIconPath": "static/myTab0.png"
 			}
 		]
 	},

@@ -10,8 +10,11 @@
 						齐齐哈尔
 					</view>
 				</view>
-				<view class="topInput">
-					<input type="text" class="" style="display: block;margin: 0 auto;" value="" placeholder="搜索用户/活动"/>
+				<view class=" dis_flex aic ju_c" style="width: 100vw;">
+					<view class="topInput">
+						<input type="text" class="" style="display: block;margin: 0 auto;" value=""
+							placeholder="搜索用户/活动" />
+					</view>
 				</view>
 				<view class="topFq" style="">
 					发起
@@ -20,9 +23,11 @@
 		</topbar>
 		<view class="head">
 			<view class="dis_flex aic ju_b" style="flex-flow: row wrap;padding: 0 30rpx;">
-				<view class="dis_flex aic ju_c mt15" style="flex-flow: row wrap;width: 120rpx;" v-for="item,index in 10">
+				<view class="dis_flex aic ju_c mt15" style="flex-flow: row wrap;width: 120rpx;"
+					v-for="item,index in 10">
 					<view class="" style="width: 70rpx;">
-						<image src="../../static/findTab0.png" mode="aspectFill" style="width: 60rpx;height: 60rpx;"></image>
+						<image src="../../static/findTab0.png" mode="aspectFill" style="width: 60rpx;height: 60rpx;">
+						</image>
 						<text class="mt5">运动</text>
 					</view>
 				</view>
@@ -41,9 +46,11 @@
 			</view>
 			<view class="dis_flex aic ju_b ff pr15 pl15">
 				<view class="dis_flex aic ju_b mt10" v-for="item,index in 4">
-					<view class="" style="width: 165px;height: 220px; background-color: #FFFFFF;border-radius: 15rpx;overflow: hidden;">
+					<view class=""
+						style="width: 165px;height: 220px; background-color: #FFFFFF;border-radius: 15rpx;overflow: hidden;">
 						<view class="" style="background-color: #000000;">
-							<image src="../../static/findTab1.png" mode="aspectFill" style="width: 165px;height: 150px;"></image>
+							<image src="../../static/findTab1.png" mode="aspectFill"
+								style="width: 165px;height: 150px;"></image>
 						</view>
 						<view class="fs11 dis_flex aic ju_b ml5 mt5 mr10" style="color: #3C3C43;font-weight: 600;">
 							<view class="">
@@ -55,14 +62,14 @@
 						</view>
 						<view class="ml5 mt15 dis_flex aic">
 							<view class="" style="margin-left: 5rpx;" v-for="item,index in 5">
-								<image src="../../static/findTab0.png" mode="aspectFill" style="width: 23px;height: 23px;" ></image>
+								<image src="../../static/findTab0.png" mode="aspectFill"
+									style="width: 23px;height: 23px;"></image>
 							</view>
-							
+
 						</view>
 					</view>
 				</view>
 			</view>
-			
 		</view>
 	</view>
 </template>
@@ -77,7 +84,7 @@
 	export default {
 		data() {
 			return {
-				
+
 			}
 		},
 		onLoad() {
@@ -90,10 +97,15 @@
 </script>
 
 <style>
-	page{
+	page {
+		width: 100%;
+		height: 100vh;
 		background-color: #F3F3F3;
+		
 	}
-	.content {		
+
+	.content {
+		padding-bottom: 50px;
 	}
 	.logo {
 		height: 200rpx;
@@ -113,7 +125,8 @@
 		font-size: 36rpx;
 		color: #8f8f94;
 	}
-	.topDz{
+
+	.topDz {
 		position: absolute;
 		display: flex;
 		align-items: center;
@@ -121,9 +134,10 @@
 		left: 30rpx;
 		font-size: 14rpx
 	}
-	.topInput{
+
+	.topInput {
 		background-color: #f6f6f6;
-		border-radius:35rpx;
+		border-radius: 35rpx;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -131,10 +145,11 @@
 		color: #3C3C43;
 		padding: 12rpx 24rpx;
 	}
-	.topFq{
-		width:87rpx;
+
+	.topFq {
+		width: 87rpx;
 		height: 44.5rpx;
-		background-image: linear-gradient(rgb(179, 125, 236),rgb(145, 69, 255));
+		background-image: linear-gradient(rgb(179, 125, 236), rgb(145, 69, 255));
 		border-radius: 25rpx;
 		color: #FFFFFF;
 		font-size: 12rpx;
@@ -144,7 +159,8 @@
 		position: absolute;
 		right: 30rpx;
 	}
-	.hotActivity{
+
+	.hotActivity {
 		margin-bottom: 20px;
 	}
 </style>
