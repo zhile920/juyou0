@@ -117,7 +117,7 @@
 					<view class="dis_flex aic ju_c mt15 mb30">
 						<view style="width: 92%;height: 2px;background-color: #3C3C43;"></view>
 					</view>
-
+					
 
 				</view>
 

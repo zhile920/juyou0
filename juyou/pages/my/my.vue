@@ -42,13 +42,13 @@
 				</view>
 			</view>
 			<view class="bgcf dis_flex aic ju_b" style="padding: 32px 60px 20px;border-radius: 0 0 20px 20px;">
-				<view class="" v-for="item, index in 3">
+				<view class="" v-for="item, index in myLists">
 					<view class="dis_flex aic ju_c">
-						<image src="../../static/findTab0.png" mode="aspectFill" style="width: 32px;height: 32px;">
+						<image :src="item.img" mode="aspectFill" style="width: 32px;height: 32px;">
 						</image>
 					</view>
 					<view class="mt5">
-						我的活动
+						{{item.name}}
 					</view>
 				</view>
 			</view>
@@ -110,7 +110,16 @@
 	export default {
 		data() {
 			return {
-
+				myLists:[{
+					name:'我的活动',
+					img:'../../static/myTab0.png'
+				},{
+					name:'鸽子押金',
+					img:'../../static/myTab0.png'
+				},{
+					name:'设置',
+					img:'../../static/myTab0.png'
+				}]
 			}
 		},
 		methods: {
