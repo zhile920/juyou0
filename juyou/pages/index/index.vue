@@ -2,7 +2,7 @@
 	<view class="content">
 		<topbar bg_color="#F3F3F3" :have_top="true">
 			<view class="dis_flex aic">
-				<view class="topDz">
+				<view class="topDz"  @click='tiaozhuan'  data-url='/pageL/qidongye/qidongye' :data-shifou='false'>
 					<view class="">
 						<text class="iconfont icon-VIP"></text>
 					</view>
@@ -84,15 +84,24 @@
 	export default {
 		data() {
 			return {
-
+				
 			}
 		},
+		computed: {
+			...mapState(['hasLogin', 'forcedLogin', 'userName', 'userinfo'])
+		},
 		onLoad() {
-
+		
 		},
 		methods: {
-
-		}
+			...mapMutations(['logout', 'login']),
+			getimg(img) {
+				return api.getimg(img)
+			},
+			tiaozhuan(e) {
+				return api.tiaozhuan(e)
+			},
+		}	
 	}
 </script>
 

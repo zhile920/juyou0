@@ -33,7 +33,7 @@ const pveimg = function(e) {
  * @author: wenxin  
  * @createTime: 2021-6-7 12:01:06  
  */
-const jump = function(e) {
+const tiaozhuan = function(e) {
 	console.log(e.currentTarget.dataset.type)
 	var datas = e.currentTarget.dataset
 	if (datas.login) {
@@ -479,7 +479,7 @@ export default {
 	imgurl,
 	P_get,
 	P_post,
-	jump,
+	tiaozhuan,
 	pveimg,
 	getimg,
 	getimgarr,
