@@ -14,6 +14,7 @@
 					<view class="topInput">
 						<input type="text" class="" style="display: block;margin: 0 auto;" value=""
 							placeholder="搜索用户/活动" />
+							<image src="../../static/findTab0.png" mode="aspectFill" style="width: 15px;height: 15px;"></image>
 					</view>
 				</view>
 				<view class="topFq" style="">
@@ -34,8 +35,15 @@
 			</view>
 		</view>
 		<view class="fjActivity">
-			<view class="bg-black mt15 mr15 ml15" style="border-radius: 20px;">
-				<image src="../../static/findTab1.png" mode="aspectFill" style="height: 150px;"></image>
+			<view class="bg-black mt15 mr15 ml15 " style="border-radius: 20px;">
+				<image src="../../static/findTab1.png" mode="aspectFill" style="height: 153px;width:345px; position: absolute;border-radius: 20px;"></image>
+				<view class="cf fs17 fw600 ml15" style="padding-top: 40px;">附近有324热门活动</view>
+				<view class="dis_flex aic ju_b pt25 ml15" style="width: 30%;">
+					<view class="" v-for="item,index in 4">
+						<image src="../../static/findTab0.png" mode="aspectFill" style="width: 20px;height: 20px;"></image>
+					</view>
+				</view>
+				<view class="cf pt5 pb20 fs13 ml15">1200个用户在附近</view>
 			</view>
 		</view>
 		<view class="hotActivity">
@@ -65,7 +73,6 @@
 								<image src="../../static/findTab0.png" mode="aspectFill"
 									style="width: 23px;height: 23px;"></image>
 							</view>
-
 						</view>
 					</view>
 				</view>

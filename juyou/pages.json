@@ -97,7 +97,7 @@
             "path" : "pageL/my_lishihuodong/my_lishihuodong",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "我的活动",
                 "enablePullDownRefresh": false
             }
             
@@ -106,7 +106,7 @@
             "path" : "pageL/my_geziyajin/my_geziyajin",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "鸽子押金",
                 "enablePullDownRefresh": false
             }
             
@@ -142,7 +142,7 @@
             "path" : "pageL/my_shezhi/my_shezhi",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "设置",
                 "enablePullDownRefresh": false
             }
             
@@ -151,7 +151,7 @@
             "path" : "pageL/my_zhifu/my_zhifu",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "支付订单",
                 "enablePullDownRefresh": false
             }
             

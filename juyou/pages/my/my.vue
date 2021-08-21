@@ -18,7 +18,7 @@
 						</view>
 
 					</view>
-					<view class="cf fs12 dis_flex aic mr30">
+					<view class="cf fs12 dis_flex aic mr30"  @click='tiaozhuan'  data-url='/pageL/my_gerenzhuye/my_gerenzhuye' :data-shifou='false'>
 						<view class="">
 							个人中心
 						</view>
@@ -43,7 +43,7 @@
 			</view>
 			<view class="bgcf dis_flex aic ju_b" style="padding: 32px 60px 20px;border-radius: 0 0 20px 20px;">
 				<view class="" v-for="item, index in myLists">
-					<view class="dis_flex aic ju_c">
+					<view class="dis_flex aic ju_c" @click="choose_my(index)">
 						<image :src="item.img" mode="aspectFill" style="width: 32px;height: 32px;">
 						</image>
 					</view>
@@ -107,6 +107,8 @@
 </template>
 
 <script>
+	import api from '../../components/service.js';
+	var that
 	export default {
 		data() {
 			return {
@@ -123,7 +125,28 @@
 			}
 		},
 		methods: {
-
+			getimg(img) {
+				return api.getimg(img)
+			},
+			tiaozhuan(e) {
+				return api.tiaozhuan(e)
+			},
+			choose_my(e){
+				console.log(e)
+				if(e==0){
+					uni.navigateTo({
+						url:'../../pageL/my_lishihuodong/my_lishihuodong'
+					})
+				}else if(e==1){
+					uni.navigateTo({
+						url:'../../pageL/my_geziyajin/my_geziyajin'
+					})
+				}else{
+					uni.navigateTo({
+						url:'../../pageL/my_shezhi/my_shezhi'
+					})
+				}
+			}
 		}
 	}
 </script>
