@@ -37,7 +37,7 @@
 						<view style="width: 92%;height: 2px;background-color: #3C3C43;"></view>
 					</view>
 
-					<view class="mb30" v-for="item,index in 5">
+					<view class="mb30" v-for="item,index in 5" @click='tiaozhuan'  data-url='/pageL/find_xiangqing/find_xiangqing' :data-shifou='false'>
 
 
 
@@ -128,15 +128,33 @@
 </template>
 
 <script>
+	import api from '../../components/service.js';
+	var that
+	import {
+		mapState,
+		mapMutations
+	} from 'vuex'
 	export default {
 		data() {
 			return {
-
+				
 			}
 		},
+		computed: {
+			...mapState(['hasLogin', 'forcedLogin', 'userName', 'userinfo'])
+		},
+		onLoad() {
+		
+		},
 		methods: {
-
-		}
+			...mapMutations(['logout', 'login']),
+			getimg(img) {
+				return api.getimg(img)
+			},
+			tiaozhuan(e) {
+				return api.tiaozhuan(e)
+			},
+		}	
 	}
 </script>
 

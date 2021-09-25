@@ -79,8 +79,9 @@
             "path" : "pageL/find_xiangqing/find_xiangqing",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "navigationBarTitleText": "动态详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f3f3f3"
             }
             
         }
@@ -98,7 +99,8 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "我的活动",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f3f3f3"
             }
             
         }
@@ -107,7 +109,8 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "鸽子押金",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f3f3f3"
             }
             
         }
@@ -116,7 +119,8 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
             }
             
         }
@@ -124,8 +128,9 @@
             "path" : "pageL/my_bianjiziliao/my_bianjiziliao",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "navigationBarTitleText": "编辑资料",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f3f3f3"
             }
             
         }
@@ -133,8 +138,9 @@
             "path" : "pageL/my_gengduoziliao/my_gengduoziliao",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "navigationBarTitleText": "更多资料",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f3f3f3"
             }
             
         }
@@ -143,7 +149,8 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "设置",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f3f3f3"
             }
             
         }
