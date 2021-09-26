@@ -25,7 +25,7 @@
 		<view class="head">
 			<view class="dis_flex aic ju_b" style="flex-flow: row wrap;padding: 0 30rpx;">
 				<view class="dis_flex aic ju_c mt15" style="flex-flow: row wrap;width: 120rpx;"
-					v-for="item,index in 10">
+					v-for="item,index in 10" @click='tiaozhuan'  data-url='/pageL/index_xifen/index_xifen' :data-shifou='false'>
 					<view class="" style="width: 70rpx;">
 						<image src="../../static/findTab0.png" mode="aspectFill" style="width: 60rpx;height: 60rpx;">
 						</image>
@@ -34,7 +34,7 @@
 				</view>
 			</view>
 		</view>
-		<view class="fjActivity">
+		<view class="fjActivity"  @click='tiaozhuan'  data-url='/pageL/index_fujin/index_fujin' :data-shifou='false'>
 			<view class="bg-black mt15 mr15 ml15 " style="border-radius: 20px;">
 				<image src="../../static/findTab1.png" mode="aspectFill" style="height: 153px;width:345px; position: absolute;border-radius: 20px;"></image>
 				<view class="cf fs17 fw600 ml15" style="padding-top: 40px;">附近有324热门活动</view>

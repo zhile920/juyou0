@@ -34,8 +34,9 @@
             "path" : "pageL/index_fujin/index_fujin",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "navigationBarTitleText": "附近城市",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
             }
             
         }
@@ -44,7 +45,9 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"navigationBarBackgroundColor": "#F3F3F3"
             }
             
         }
