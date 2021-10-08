@@ -64,8 +64,9 @@
             "path" : "pageL/index_xiangqing/index_xiangqing",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "navigationBarTitleText": "活动详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#F3F3F3"
             }
             
         }

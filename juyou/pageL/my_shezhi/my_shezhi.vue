@@ -48,22 +48,32 @@
 				21.3M
 			</view>
 		</view>
-		<view class="dis_flex aic ju_c bgcf mt10 fw600" style="color: #000000; padding: 16px 14px 15px 18px;">
+		<view class="dis_flex aic ju_c bgcf mt10 fw600" @click='tiaozhuan'  data-url='/pageL/qidongye/qidongye' :data-shifou='false' style="color: #000000; padding: 16px 14px 15px 18px;">
 			退出账号
 		</view>
 	</view>
 </template>
 
 <script>
+	import api from '../../components/service.js';
+	var that
 	export default {
 		data() {
 			return {
 				
 			}
 		},
+		onLoad() {
+		
+		},
 		methods: {
-			
-		}
+			getimg(img) {
+				return api.getimg(img)
+			},
+			tiaozhuan(e) {
+				return api.tiaozhuan(e)
+			},
+		}	
 	}
 </script>
 
